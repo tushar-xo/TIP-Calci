@@ -1,0 +1,129 @@
+* {
+    font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  body {
+    background: #b596fc;
+  }
+
+ /* .buttonContainer {
+    display:inline-block;
+    margin-right: 10px; 
+  }
+
+
+  .newLine {
+    display: block;
+  }
+  */
+
+  .buttonGap {
+    margin-left: 2rem; /* Adjust the value to control the gap size */
+  }
+  
+  .wrapper {
+    height: 525px;
+    width: 360px;
+    color: rgb(157, 58, 58);
+    background: #29245e;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    margin: 100px auto;
+  }
+  
+  #topContainer {
+    margin-top: 4rem;
+  }
+  
+  .container {
+    margin-top: 1.4rem;
+  }
+
+  .header{
+    font-weight: bold;
+    margin-top: 0rem;
+    margin-bottom: 2.4rem;
+    margin-left: 4rem;;
+    font-size: 30px;
+  }
+  
+  .title {
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+  }
+  
+  .inputContainer {
+    background: #572f93;
+    border-radius: 1.4rem;
+    padding: 0 0.8rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  #billTotalInput,
+  #tipInput {
+    font-size: 1.2rem;
+    background: none;
+    border: none;
+    outline: none;
+    padding: none;
+  }
+  
+  .buttonContainer {
+    background: #d4d6f3;
+    display: grid;
+    place-items: center;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+  }
+  
+  .splitButton {
+    background: none;
+    border: none;
+  }
+  
+  .controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .splitButton {
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+  }
+  
+  .buttonText {
+    color: #3b4175 !important;
+  }
+  
+  .splitAmount {
+    font-size: 1.6rem;
+  }
+  
+  #bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .totalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  
+  .total {
+    font-size: 2rem;
+  }
+  
+  .buttonup,.buttondown{
+    display: flex;
+  }
+
+  .buttondown{
+    justify-content: space-between;
+  }
